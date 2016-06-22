@@ -13,7 +13,7 @@ end
 
 #3. Define a method update_queue that returns the updated array
 # This method takes two arguments (the array of movies and the movie you want to add to the queue)
-def update_queue(queue)(movie)
+def update_queue(queue, movie)
   queue.push(movie)
 end
 
